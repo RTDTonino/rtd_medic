@@ -1,5 +1,5 @@
-RSE("rtd_medicoilegal:pagar")
-ADH("rtd_medicoilegal:pagar", function()
+RSE("rtd_medic:pagar")
+ADH("rtd_medic:pagar", function()
     local xPlayer = ESX.GetPlayerFromId(source)
     local price = RTD.Price
     
