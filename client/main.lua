@@ -74,7 +74,7 @@ CT(function()
                                 if not status then
                                     W(3000)
                                     TE('esx_ambulancejob:revive')
-                                    TSE('rtd_medicoilegal:pagar')
+                                    TSE('rtd_medic:pagar')
                                     EnableControlAction(0, 47, true)
                                     local price = RTD.Price
                                     SN('Pagaste ' ..price.. '$ de asistencia medica')
